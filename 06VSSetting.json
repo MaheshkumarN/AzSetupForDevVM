@@ -1,0 +1,168 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "window.zoomLevel": 0,
+    "window.restoreWindows": "none",
+    "window.title": "${rootPath}${separator}${dirty}${activeEditorShort}${separator}${appName}",
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.lineHeight": 1.14,
+    "editor.letterSpacing": 0.5,
+    "editor.cursorWidth": 3,
+    "editor.cursorBlinking": "blink",
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "deepIndent",
+    "editor.lineNumbers": "on",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'FiraCode Nerd Font Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.linkedEditing": true,
+    "editor.bracketPairColorization.enabled": true,
+    "explorer.openEditors.visible": 0,
+    "explorer.compactFolders": true,
+    "workbench.statusBar.visible": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 10,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.editor.decorations.badges": true,
+    "workbench.editor.decorations.colors": true,
+    "security.workspace.trust.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.04,
+    "terminal.integrated.fontFamily": "'CaskaydiaCove NF', 'DejaVuSansMono Nerd Font Mono', 'LiterationMono NF', 'FiraCode Nerd Font Mono', Consolas, monospace",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "extensions.ignoreRecommendations": true,
+    "settingsSync.ignoredSettings": [],
+    "settingsSync.ignoredExtensions": [],
+    "vscode-edge-devtools.headless": true,
+    "prettier.trailingComma": "none",
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "powershell.integratedConsole.showOnStartup": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[powershell]": {
+        "editor.renderWhitespace": "all",
+        "editor.renderControlCharacters": true,
+        "editor.tabSize": 2,
+        "files.trimTrailingWhitespace": true,
+        "files.encoding": "utf8bom",
+        "files.autoGuessEncoding": true,
+        "editor.tabCompletion": "on"
+    },
+    "files.associations": {
+        "*.json": "jsonc",
+        "*.cshtml": "html"
+    },
+    "[plaintext]": {
+        "editor.tabSize": 2
+    },
+    "[csharp]": {
+        "editor.tabSize": 2
+    },
+    "[razor]": {
+        "editor.tabSize": 2
+    },
+    "mssql.format.alignColumnDefinitionsInColumns": false,
+    "mssql.format.placeSelectStatementReferencesOnNewLine": false,
+    "[sql]": {
+        "editor.tabSize": 2
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.suggestSelection": "first",
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ],
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[http]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.quickSuggestions": {
+            "strings": true,
+            "comments": true
+        }
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "gitlens.codeLens.scopes": [
+            "document"
+        ],
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.wordWrap": "on",
+        "editor.tabSize": 2,
+        "editor.renderWhitespace": "boundary"
+    },
+    "markdownlint.config": {
+        "MD001": false,
+        "MD007": false,
+        "MD010": false,
+        "MD013": false,
+        "MD025": false,
+        "MD026": false,
+        "MD034": false
+    },
+    "mssql.connections": [
+        {
+            "connectionString": "Server=(LocalDB)\\MSSQLLocalDB; Integrated Security=true;",
+            "profileName": "LocalDB-MSSQLLocalDB",
+            "authenticationType": "Integrated"
+        }
+    ],
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    "vscode-edge-devtools.mirrorEdits": true,
+    "security.workspace.trust.banner": "never",
+    "redhat.telemetry.enabled": false,
+    "azureResourceManagerTools.parameterFiles": {}
+}

@@ -30,13 +30,13 @@ choco install azure-functions-core-tools -y
 # Tools
 choco install notepadplusplus -y
 choco install powershell-core -y
-choco install microsoft-windows-terminal -y
 choco install jetbrainsmononf -y
 choco install cascadia-code-nerd-font -y
 choco install font-nerd-dejavusansmono -y
 choco install nodejs -y
 choco install firefox -y
 choco install brave -y
+choco install microsoft-windows-terminal -y
 
 # Database And DocumentDb
 # choco install azure-documentdb-data-migration-tool

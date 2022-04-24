@@ -10,3 +10,8 @@
 # From https://www.hanselman.com/blog/is-the-windows-user-ready-for-aptget
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
 ```
+
+```Powershell
+# Run this command on both Powershell for installing the scripts and module
+Set-ExecutionPolicy Bypass -scope CurrentUser -Force
+```

@@ -7,6 +7,9 @@ choco install chocolateygui -y
 # Git
 choco install git -y
 
+# oh-my-posh
+choco install oh-my-posh -y
+
 # Visual Studio 2022 Community Edition
 choco install visualstudio2022community -y
 # Visual Studio 2022 Workloads
@@ -41,3 +44,4 @@ choco install microsoft-windows-terminal -y
 # Database And DocumentDb
 # choco install azure-documentdb-data-migration-tool
 # choco install sql-server-management-studio
+# choco list --local-only

@@ -1,4 +1,9 @@
 # For Azure Dev VM
+```Powershell
+# Run this command on both Powershell for installing the scripts and module
+Set-ExecutionPolicy Bypass -scope CurrentUser -Force
+```
+
 # install or update without confirmation use '-y' in each choco install line
 
 # Choco GUI

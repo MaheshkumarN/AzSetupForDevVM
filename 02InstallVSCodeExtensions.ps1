@@ -1,4 +1,5 @@
-# VS Code Extensions
+# Run this command on both Powershell for installing the scripts and module
+Set-ExecutionPolicy Bypass -scope CurrentUser -Force
 
 # Extension for Visual Studio Code
 # C#

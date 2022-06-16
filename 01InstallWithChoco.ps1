@@ -19,7 +19,7 @@ choco install visualstudio2022-workload-manageddesktop -y # Desktop Development 
 choco install visualstudio2022-workload-netweb -y # ASP.Net Development
 choco install visualstudio2022-workload-data -y # Data Storage and Processing WorkLoad
 choco install visualstudio2022-workload-azure -y # Azure WorkLoad
-choco install visualstudio2022-workload-node -y # NodeJS WorkLoad
+# choco install visualstudio2022-workload-node -y # NodeJS WorkLoad
 # choco install visualstudio2022-workload-python -y # Python WorkLoad
 
 # Visual Studio Code
